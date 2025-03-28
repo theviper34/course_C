@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include "drawing.h"
+
+int main() {
+    int len;
+    scanf("%d", &len);
+    drawSquare(len);
+    return 0;
+}
+
